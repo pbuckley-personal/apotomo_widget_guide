@@ -1,0 +1,157 @@
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 15:01:37) [GET
+]
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (1.0ms)   SELECT * FROM "tweets"
+Completed in 192ms (View: 190, DB: 1) | 200 OK [http://localhost/dashboard]
+
+invoke on parrot with nil
+parrot: transition:  to display_form
+                                    ...display_form
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:37) [G
+ET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.4.2.min"
+ with {:method=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:37) [G
+ET]
+
+ActionController::RoutingError (No route matches "/stylesheets/app.css" with {:m
+ethod=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 15:01:51) [POS
+T]
+  Parameters: {"commit"=>"Tweet!", "authenticity_token"=>"4PE5p5eI11ku99cDYjAUi1
+W3unlKe+gJ7Z2WtoK/oLk=", "text"=>"freaking haml whitespace, that's what"}
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (0.0ms)   SELECT * FROM "tweets"
+Completed in 49ms (View: 47, DB: 0) | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:51) [G
+ET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.4.2.min"
+ with {:method=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:51) [G
+ET]
+
+ActionController::RoutingError (No route matches "/stylesheets/app.css" with {:m
+ethod=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+invoke on parrot with nil
+parrot: transition:  to display_form
+                                    ...display_form
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 15:01:56) [POS
+T]
+  Parameters: {"commit"=>"Tweet!", "authenticity_token"=>"4PE5p5eI11ku99cDYjAUi1
+W3unlKe+gJ7Z2WtoK/oLk=", "text"=>"sup"}
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (1.0ms)   SELECT * FROM "tweets"
+Completed in 60ms (View: 57, DB: 1) | 200 OK [http://localhost/dashboard]
+
+invoke on parrot with nil
+parrot: transition:  to display_form
+                                    ...display_form
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:57) [G
+ET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.4.2.min"
+ with {:method=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 15:01:57) [G
+ET]
+
+ActionController::RoutingError (No route matches "/stylesheets/app.css" with {:m
+ethod=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 16:05:41) [POS
+T]
+  Parameters: {"commit"=>"Tweet!", "authenticity_token"=>"4PE5p5eI11ku99cDYjAUi1
+W3unlKe+gJ7Z2WtoK/oLk=", "text"=>"sup"}
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (0.0ms)   SELECT * FROM "tweets"
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 16:05:41) [G
+ET]
+
+ActionController::RoutingError (No route matches "/stylesheets/app.css" with {:m
+ethod=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+invoke on parrot with nil
+parrot: transition:  to display_form
+                                    ...display_form
+
+invoke on parrot with nil
+parrot: transition:  to display_form
+                                    ...display_form
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 16:05:43) [POS
+T]
+  Parameters: {"commit"=>"Tweet!", "authenticity_token"=>"4PE5p5eI11ku99cDYjAUi1
+W3unlKe+gJ7Z2WtoK/oLk=", "text"=>"hey"}
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (1.0ms)   SELECT * FROM "tweets"
+Completed in 53ms (View: 49, DB: 1) | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 16:05:44) [G
+ET]
+
+ActionController::RoutingError (No route matches "/stylesheets/app.css" with {:m
+ethod=>:get}):
+  haml (3.0.17) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-08-25 16:05:48) [POS
+T]
+  Parameters: {"commit"=>"Tweet!", "authenticity_token"=>"4PE5p5eI11ku99cDYjAUi1
+W3unlKe+gJ7Z2WtoK/oLk=", "text"=>"something"}
+Rendering template within layouts/application
+Rendering dashboard/index
+  Tweet Load (0.0ms)   SELECT * FROM "tweets"
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://localhost/dashboard]
+Exiting
