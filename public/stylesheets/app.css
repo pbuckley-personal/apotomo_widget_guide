@@ -1,0 +1,31 @@
+li {
+  list-style-type: none;
+  margin: 0 0 0.25em;
+	
+background:none repeat scroll 0 0 #880088;
+border:1px solid #880088;
+color:#EEEEEE;
+display:block;
+font-family: Georgia;
+font-size:0.9em;
+padding:0.25em;
+text-decoration:none;
+width:12em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 0;
+}
+
+#parrot {
+	width: 300px;
+}
+
+.widget {
+	border: 2px solid #bbb;
+	margin: 9px;
+	padding: 9px;
+	float: left;
+}

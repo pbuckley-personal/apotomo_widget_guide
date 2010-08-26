@@ -4,18 +4,19 @@
       %li
         = tweet.text
 
-%p
-  What are you up to?
-
-- form_tag "", "data-event-url" => url_for_event(:submit) do
-  = text_field_tag 'text'
-
-  = submit_tag "Tweet!"
-
-:javascript
-  form = $("# form");
-
-  form.submit(function() {
-    $.ajax({url: form.attr("data-event-url"), data: form.serialize()})
-    return false;
-  });
+  %p
+    What are you up to?
+  
+  - form_tag "", "data-event-url" => url_for_event(:submit) do
+    = text_field_tag 'text'
+  
+    = submit_tag "Tweet!"
+  
+  :javascript
+    form = $("##{@name} form");
+  
+    form.submit(function() {
+      $.ajax({url: form.attr("data-event-url"), data: form.serialize()})
+      return false;
+    });
+  
