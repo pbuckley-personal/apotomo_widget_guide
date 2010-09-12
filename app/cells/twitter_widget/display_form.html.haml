@@ -13,7 +13,7 @@
     = submit_tag "Tweet!"
   
   :javascript
-    form = $("##{@name} form");
+    var form = $("##{@name} form");
   
     form.submit(function() {
       $.ajax({url: form.attr("data-event-url"), data: form.serialize()})
